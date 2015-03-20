@@ -1,0 +1,73 @@
+{
+  "protocol": "http",
+  "host": "localhost",
+  "privatePort": 3000,
+  "publicPort": 3000,
+  "mongoUrl": "mongodb://localhost/DemocracyOS-dev",
+  "authPages": {
+    "signinUrl": "",
+    "signupUrl": ""
+  },
+  "client": [
+    "protocol",
+    "host",
+    "publicPort",
+    "env",
+    "logo",
+    "favicon",
+    "organization name",
+    "organization url",
+    "learn more url",
+    "google analytics tracking id",
+    "comments per page",
+    "faq",
+    "tos",
+    "pp",
+    "glossary",
+    "authPages"
+  ],
+  "auth": {
+    "basic": {
+      "username": "",
+      "password": ""
+    }
+  },
+  "socialshare": {
+    "siteName": "Cicote",
+    "siteDescription": "Sistema de votação Almir Cicote",
+    "image": "http://i.imgur.com/OWReQAt.jpg",
+    "domain": "cicote.com.br",
+    "twitter": {
+      "username": "@cicote"
+    }
+  },
+  "locale": "pt",
+  "logo": "http://i.imgur.com/oyauTLN.png",
+  "favicon": "http://i.imgur.com/oyauTLN.png",
+  "organization name": "Cicote",
+  "organization url": "http://www.cicote.com.br",
+  "learn more url": "http://www.cicote.com.br",
+  "staff": [
+    "guilhermeruiz@apeiara.com.br"
+  ],
+  "google analytics tracking id": "",
+  "rss enabled": true,
+  "comments per page": 0,
+  "spam limit": 5,
+  "faq": false,
+  "tos": false,
+  "pp": false,
+  "glossary": false,
+  "notifications": {
+    "url": "http://localhost:9001/api/events",
+    "token": 1234
+  },
+  "secret": "Apeiara Certo Caminho",
+  "ssl": {
+    "serverKey": "server.key",
+    "serverCert": "server.crt",
+    "port": 443,
+    "redirect": "normal"
+  },
+  "multicore": false
+}
